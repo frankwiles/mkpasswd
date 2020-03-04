@@ -24,6 +24,15 @@ Options are:
 - `-l X` generate a password of length X.  The default is 16 characters
 - `-q` just generate the password without any text around it
 
+## Setup Shell alias
+
+To make this the most useful you should setup a shell alias in your shell of choice, for bash that would be adding this
+to your `~./bashrc` or `~/.bash_profile`: 
+
+```shell
+alias mkpasswd="docker run --rm mkpasswd"
+```
+
 ## Examples
 
 Default
